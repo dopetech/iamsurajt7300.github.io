@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans|Anton|Roboto|Lato|Bungee');
+
+/* global */
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+	font-family:  'Open Sans', sans-serif;
+} 
+
+
+/* header */
+
+.navbar-default {
+	font-family: 'Open Sans', sans-serif;
+    padding-bottom: 300px;
+    border: 0 none;
+    font-size: 15px;
+    font-weight: bold;	background:url(../images/yellow_structure_hd-2560x1440.jpg) no-repeat;
+	background-size: cover;
+}
+
+.navbar-brand{
+font-family: 'Anton', sans-serif;
+background: #003D3E;
+
+}
+
+.highlight {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: lighter;
+
+}
+
+#navbar>ul>li>a{
+	color: black;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+#navbar>ul>li>a:hover{
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+	
+
+/* section */
+
+
+/* footer */
+
+footer {
+	margin-top: 70px;
+	padding-bottom: 70px;
+	background: url(../images/yellow_structure_hd-2560x1440.jpg) no-repeat top;
+	text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+footer  li{
+    list-style: none;
+    display:inline;
+  	margin: 10px;
+    font-size: 15px;
+}
+
+footer ul li a {
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+}
+
+footer ul {
+	padding-left: 0px;
+}
+
+footer h3 {
+	color: white;
+	background: #003D3E;
+    font-size: 30px;
+    font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
