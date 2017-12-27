@@ -14,7 +14,6 @@ body {
 .navbar-default {
 	font-family: 'Open Sans', sans-serif;
     padding-bottom: 300px;
-    border: 0 none;
     font-size: 15px;
     font-weight: bold;	background:url(../images/yellow_structure_hd-2560x1440.jpg) no-repeat;
 	background-size: cover;
@@ -24,6 +23,11 @@ body {
 font-family: 'Anton', sans-serif;
 background: #003D3E;
 
+}
+
+nav.navbar.navbar-default.navbar-static-top{
+    border-bottom-width: 0px;
+    margin-bottom: 0px;
 }
 
 .highlight {
@@ -43,9 +47,52 @@ background: #003D3E;
 	color: #FFFFFF;
 	font-weight: bolder;
 }
-	
 
 /* section */
+
+section {
+    border-top: 1px solid;
+    min-height: 500px;
+    text-align: center;
+    background: url(../images/pexels-photo-196645.jpeg) no-repeat;
+    background-size: cover;
+}
+
+section h1{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    background: #03794e;
+    color: white;
+    margin-top: 200px;
+    padding: 30px 0 30px 0;
+}
+
+
+/* article */
+
+article{
+    margin-top: 30px;
+}
+
+article h3 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+article p{
+	padding-bottom: 50px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+article .mod-pic{
+    margin-bottom: 50px;
+    height: 500px;
+}
+
 
 
 /* footer */
@@ -53,7 +100,7 @@ background: #003D3E;
 footer {
 	margin-top: 70px;
 	padding-bottom: 70px;
-	background: url(../images/yellow_structure_hd-2560x1440.jpg) no-repeat top;
+	background: #2F8E8D;
 	text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
