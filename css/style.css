@@ -21,7 +21,7 @@ body {
     background-size: cover;
 }
 
-a.navbar-brand{
+a.navbar-brand {
     font-family: 'Anton', sans-serif;
     background: #003D3E;
     font-size: 40px;
@@ -29,7 +29,7 @@ a.navbar-brand{
     font-weight: lighter;
 }
 
-.h-l{
+.h-l {
     color: white;
 }
 
@@ -45,13 +45,13 @@ nav.navbar.navbar-default.navbar-static-top {
 }
 
 #navbar > ul > li > a {
-    color: black;
-    font-weight: normal;
-    font-size: 17px;
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
 }
 
 #navbar > ul > li > a:hover {
-    color: #FFFFFF;
+    color: black;
     font-weight: bolder;
 }
 
@@ -75,8 +75,8 @@ section h1 {
 }
 
 .h-l2 {
-	color:tomato;
-	background: #36454f;
+    color: tomato;
+    background: #36454f;
 }
 
 /* article */
@@ -93,7 +93,8 @@ section h1 {
     font-weight: bold;
 }
 
-article-1,p {
+article-1,
+p {
     padding-bottom: 50px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -111,13 +112,11 @@ article-1,p {
     margin-bottom: 50px;
 }
 
-
-
 /* footer */
 
 footer {
-    margin-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 50px;
+    padding-bottom: 50px;
     background: #2F8E8D;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -149,6 +148,6 @@ footer h3 {
     background: #003D3E;
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
