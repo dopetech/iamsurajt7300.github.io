@@ -1,51 +1,58 @@
 @import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans|Anton|Roboto|Lato|Bungee');
 
 /* global */
+
 body {
     background: #ffffff;
     margin: 0;
     padding: 0;
-	font-family:  'Open Sans', sans-serif;
-} 
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 /* header */
 
 .navbar-default {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-bottom: 300px;
     font-size: 15px;
-    font-weight: bold;	background:url(../images/yellow_structure_hd-2560x1440.jpg) no-repeat;
-	background-size: cover;
+    font-weight: bold;
+    background: url(../images/yellow_structure_hd-2560x1440.jpg) no-repeat;
+    background-size: cover;
 }
 
-.navbar-brand{
-font-family: 'Anton', sans-serif;
-background: #003D3E;
-
+a.navbar-brand{
+    font-family: 'Anton', sans-serif;
+    background: #003D3E;
+    font-size: 40px;
+    padding-bottom: 100px;
+    font-weight: lighter;
 }
 
-nav.navbar.navbar-default.navbar-static-top{
+.h-l{
+    color: white;
+}
+
+nav.navbar.navbar-default.navbar-static-top {
     border-bottom-width: 0px;
     margin-bottom: 0px;
 }
 
 .highlight {
-	color: #FFFFFF;
-	font-size: 30px;
-	font-weight: lighter;
-
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: lighter;
 }
 
-#navbar>ul>li>a{
-	color: black;
-	font-weight: normal;
-	font-size: 17px;
+#navbar > ul > li > a {
+    color: black;
+    font-weight: normal;
+    font-size: 17px;
 }
 
-#navbar>ul>li>a:hover{
-	color: #FFFFFF;
-	font-weight: bolder;
+#navbar > ul > li > a:hover {
+    color: #FFFFFF;
+    font-weight: bolder;
 }
 
 /* section */
@@ -58,7 +65,7 @@ section {
     background-size: cover;
 }
 
-section h1{
+section h1 {
     font-size: 50px;
     font-family: 'Anton', sans-serif;
     background: #03794e;
@@ -70,25 +77,27 @@ section h1{
 
 /* article */
 
-.article-1{
+.article-1 {
     margin-top: 50px;
 }
 
- .article-1 h3 {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
+.article-1 h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
-article-1, p{
-	padding-bottom: 50px;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+
+article-1,
+p {
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
-.article-2 h1{
+.article-1 h1 {
     font-size: 50px;
     font-family: 'Anton', sans-serif;
     background: #03794e;
@@ -104,19 +113,19 @@ article-1, p{
 /* footer */
 
 footer {
-	margin-top: 70px;
-	padding-bottom: 70px;
-	background: #2F8E8D;
-	text-align: center;
+    margin-top: 70px;
+    padding-bottom: 70px;
+    background: #2F8E8D;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 
 
-footer  li{
+footer li {
     list-style: none;
-    display:inline;
-  	margin: 10px;
+    display: inline;
+    margin: 10px;
     font-size: 15px;
 }
 
@@ -124,19 +133,19 @@ footer ul li a {
     color: white;
 }
 
-footer a:hover{
+footer a:hover {
     color: black;
 }
 
 footer ul {
-	padding-left: 0px;
+    padding-left: 0px;
 }
 
 footer h3 {
-	color: white;
-	background: #003D3E;
+    color: white;
+    background: #003D3E;
     font-size: 30px;
     font-weight: bold;
-	padding-bottom: 20px;
-	padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
