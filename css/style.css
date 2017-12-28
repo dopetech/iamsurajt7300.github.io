@@ -15,8 +15,6 @@ body {
 .navbar-default {
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 300px;
-    font-size: 15px;
-    font-weight: bold;
     background: url(../images/yellow_structure_hd-2560x1440.jpg) no-repeat;
     background-size: cover;
 }
@@ -36,12 +34,6 @@ a.navbar-brand {
 nav.navbar.navbar-default.navbar-static-top {
     border-bottom-width: 0px;
     margin-bottom: 0px;
-}
-
-.highlight {
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: lighter;
 }
 
 #navbar > ul > li > a {
@@ -84,6 +76,7 @@ section h1 {
 
 .article-1 {
     margin-top: 50px;
+    font-size: 25px;
 }
 
 .article-1 h3 {
@@ -103,7 +96,7 @@ p {
 }
 
 .article-1 h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Anton', sans-serif;
     background: #03794e;
     color: white;
