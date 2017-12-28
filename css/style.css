@@ -70,27 +70,33 @@ section h1{
 
 /* article */
 
-article{
-    margin-top: 30px;
+.article-1{
+    margin-top: 50px;
 }
 
-article h3 {
+ .article-1 h3 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 }
-article p{
+article-1, p{
 	padding-bottom: 50px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
-article .mod-pic{
+.article-2 h1{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    background: #03794e;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-bottom: 50px;
-    height: 500px;
 }
 
 
