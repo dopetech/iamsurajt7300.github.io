@@ -38,8 +38,7 @@ nav.navbar.navbar-default.navbar-static-top {
 
 #navbar > ul > li > a {
     color: white;
-    font-weight: lighter;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 #navbar > ul > li > a:hover {
@@ -47,6 +46,9 @@ nav.navbar.navbar-default.navbar-static-top {
     font-weight: bolder;
 }
 
+.active a {
+    color: black !important;
+}
 /* section */
 
 section {
