@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans|Anton|Roboto|Lato|Bungee');
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore|Open+Sans|Anton|Roboto|Lato|Bungee|Montserrat');
 
 /* global */
 
@@ -51,7 +51,7 @@ nav.navbar.navbar-default.navbar-static-top {
 }
 /* section */
 
-section {
+#showcase {
     margin-top: 1px;
     padding-top: 200px;
     min-height: 500px;
@@ -60,7 +60,7 @@ section {
     background-size: cover;
 }
 
-section h1 {
+#showcase h1  {
     font-size: 40px;
     font-family: 'Anton', sans-serif;
     background: #03794e;
@@ -72,6 +72,34 @@ section h1 {
 .h-l2 {
     color: tomato;
     background: #36454f;
+}
+
+#showcase2 {
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#showcase2 h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#showcase2 img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px
+}
+
+#showcase2 p {
+    text-align: left;
+}
+
+#showcase2 button {
+    background: #003D3E;
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
 }
 
 /* article */
